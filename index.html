@@ -1280,7 +1280,13 @@ function switchLang(lang) {
   document.getElementById('btn-ko').classList.toggle('active', lang === 'ko');
   document.getElementById('btn-en').classList.toggle('active', lang === 'en');
   document.documentElement.lang = lang === 'ko' ? 'ko' : 'en';
-  
+
   const elements = document.querySelectorAll('[data-ko][data-en]');
   elements.forEach(el => {
-    const text = lang === 
+    const text = lang === 'ko' ? el.dataset.ko : el.dataset.en;
+    el.textContent = text;
+  });
+}
+</script>
+</body>
+</html> 
