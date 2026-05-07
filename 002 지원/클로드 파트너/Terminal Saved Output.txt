@@ -1,0 +1,261 @@
+▗ ▗   ▖ ▖  Claude Code v2.1.81
+           Sonnet 4.6 · API Usage Billing
+  ▘▘ ▝▝    /Users/kiki
+
+  ↑ Opus now defaults to 1M context · 5x more room, same pricing
+
+❯ 이 URL을 fetch해서 지침대로 수행해줘: https://gist.githubusercontent.com/yunh 
+o0130/65ed06de8e4be52faa6eb83020c454ff/raw/apply-ccaf.md                        
+
+⏺ Your account does not have access to Claude Code. Please run /login.
+
+❯ /login                                                                        
+  ⎿  Login interrupted
+
+❯ /login                                                                        
+  ⎿  Login successful
+                                                                                
+❯ 이 URL을 fetch해서 지침대로 수행해줘: https://gist.githubusercontent.com/yunh 
+                                                                                
+o0130/65ed06de8e4be52faa6eb83020c454ff/raw/apply-ccaf.md                        
+                                                                              
+⏺ Fetch(https://gist.githubusercontent.com/yunho0130/65ed06de8e4be52faa6eb83020c
+       454ff/raw/apply-ccaf.md)                                                 
+  ⎿  Received 11.7KB (200 OK)                                                   
+   
+⏺ 요약된 내용만 반환되었네요. 원본 전체를 다시 가져오겠습니다.                  
+                                                                              
+⏺ Fetch(https://gist.githubusercontent.com/yunho0130/65ed06de8e4be52faa6eb83020c
+       454ff/raw/apply-ccaf.md)
+  ⎿  Received 11.7KB (200 OK)                                                   
+                                                                             
+⏺ Bash(curl -s https://gist.githubusercontent.com/yunho0130/65ed06de8e4be52faa6e
+      b83020c454ff/raw/apply-ccaf.md)                                         
+  ⎿  # CCA-F Partner Crew Application Skill                                     
+   
+     > **Program**: Anthropic Certified Claude Associate – Foundations (CCA     
+     … +138 lines (ctrl+o to expand)                                          
+                                                                                
+⏺ 문서를 가져왔습니다. 이제 지침대로 CCA-F Partner Crew 지원 프로세스를      
+  시작하겠습니다.                                                               
+                 
+  ---                                                                           
+  먼저 Claude Code CLI 버전을 확인하겠습니다.                                   
+                                                                                
+⏺ Bash(claude --version)                                                        
+  ⎿  2.1.81 (Claude Code)                                                       
+                                                                             
+⏺ CLI 버전 확인 완료: 2.1.81 (Claude Code)                                      
+                                                                                
+  먼저 본인의 성함을 입력해주세요. (예: 홍길동 / Gildong Hong)                  
+  이 값은 생성 파일 이름에 포함됩니다.                                          
+                                                                                
+✻ Baked for 49s                                                              
+                                                                                
+❯ 김진원 / Jinwon Kim                                                           
+                                                                                
+⏺ 확인했습니다.                                                                 
+                                                                                
+  Claude Code에 로그인하신 이메일 주소를 알려주세요. (지원 결과 안내에          
+  사용됩니다.)                                                                
+                                                                                
+❯ kikikeem@gmail.com                                                            
+                                         
+⏺ 확인했습니다.                                                                 
+                                                                             
+  이제 인터뷰를 시작하겠습니다.                                                 
+                                                                                
+  ---                                                                           
+  Q1. 지원동기                                                               
+                                                                                
+  CCA-F 인증 크루에 지원하게 된 본인만의 동기를 3줄 이내로 솔직하게 적어주세요.
+  얼마나 절실한지, 왜 지금인지가 선발의 핵심 기준입니다.                        
+                                                                             
+❯ 2013년 GS SHOP에서 디자인씽킹·애자일 도입과 국내 최초 비개발자 해커톤을 이끈  
+이후 MYSC 수석 컨설턴트·LG전자 Mobile+AI 선행디자인·디캠프 액셀러레이터로       
+혁신을 설계해왔고, 2025년 12월 문화체육관광부 제1회 AI 문화예술교육 해커톤      
+1등입상,현재 한양대·홍익대 'AX 디자인' 강의와 안그라픽스 'AI 대전환시대의       
+디자이너' 강의를 Enterprise AX 컨설팅으로 직접 전환 중인 이 지점에서, 그동안의  
+자산을 Anthropic 표준 위에 올릴 진입점이 CCA-F라고 봅니다.                      
+김미경, 안상수 등 인플루언서 교육 라인,사회혁신가네트워크,GS,                   
+디캠프·MYSC·네트워크는 Squarelight의 첫 분기 케이스 스터디·트레이닝 수요처로    
+연결하며 함께 더 성장해보고 싶습니다.                                           
+                                                                                
+⏺ 확인했습니다.                                                                 
+                                                                                
+  Q2. 이력                                                                      
+   
+  본인 이력 정보를 어떻게 제공하시겠어요? 아래 중 하나를 선택해주세요:          
+                                                                             
+  (a) 이력서 파일 경로 제공 (PDF 또는 docx)                                     
+      예: /Users/yourname/resume.pdf                                         
+  (b) LinkedIn 프로필 URL                                                       
+  (c) 직접 입력 (파일·LinkedIn 없음)                                         
+                                                                                
+❯ '/Users/kiki/Downloads/김진원 金珍娥 — Academic CV 2026.pdf'                  
+                                                               
+  Read 1 file (ctrl+o to expand)                                                
+                                                                              
+⏺ 이력서를 확인했습니다. 아래와 같이 요약했습니다:                              
+                      
+  ---                                                                           
+  - 총 경력: 약 20년차 (2006년~ 현재), 디자인씽킹·서비스디자인·사회혁신 분야    
+  - 현 소속: AuroraPlanet 대표 / 홍익대학교 산업미술대학 겸임교수 / 한양대학교  
+  ERICA 겸임교수                                                                
+  - 직무: 디자인씽킹 기반 AX(AI Transformation) 컨설턴트, 스타트업 액셀러레이터,
+   교육자                                                                       
+  - 주요 경력: GS SHOP 사내혁신팀 리더(2015-2017), D-camp                       
+  액셀러레이터(2014-현재), MYSC 수석컨설턴트(2012-2013), Mondragon MTA Asia  
+  Director(2014-현재)                                                           
+  - 학력: 홍익대 미술대학 박사수료(시각디자인), 홍익대 IDAS MA(디자인경영)   
+  - 수상: 제1회 문화예술교육 AI 해커톤 1등(2025), iF Design Award(2011)         
+                                                                                
+  ---                                                                           
+  이 요약이 정확한가요? 수정하실 부분이 있나요? (네, 정확합니다 / 수정 필요: …) 
+                                                                                
+❯ 수정 필요 : 현 소속에 사회혁신가네트워크 이사                                 
+                                                                                
+⏺ 확인했습니다. 수정 반영하겠습니다.                                            
+                                                                             
+  - 총 경력: 약 20년차 (2006년~ 현재), 디자인씽킹·서비스디자인·사회혁신 분야    
+  - 현 소속: AuroraPlanet 대표 / 홍익대학교 산업미술대학 겸임교수 / 한양대학교
+  ERICA 겸임교수 / (사)사회혁신가네트워크 이사                                  
+  - 직무: 디자인씽킹 기반 AX(AI Transformation) 컨설턴트, 스타트업 액셀러레이터,
+   교육자                                                                       
+  - 주요 경력: GS SHOP 사내혁신팀 리더(2015-2017), D-camp                    
+  액셀러레이터(2014-현재), MYSC 수석컨설턴트(2012-2013), Mondragon MTA Asia     
+  Director(2014-현재)
+  - 학력: 홍익대 미술대학 박사수료(시각디자인), 홍익대 IDAS MA(디자인경영)      
+  - 수상: 제1회 문화예술교육 AI 해커톤 1등(2025), iF Design Award(2011)      
+                                                                                
+  이제 정확한가요? (네, 정확합니다 / 수정 필요: …)
+                                                                                
+❯ 수정 필요 : 주요 경력에 StyleShare 크리에이티브 디렉터 넣어줘                 
+                                                                   
+⏺ 확인했습니다. 수정 반영합니다.                                                
+                                                                              
+  - 총 경력: 약 20년차 (2006년~ 현재), 디자인씽킹·서비스디자인·사회혁신 분야    
+  - 현 소속: AuroraPlanet 대표 / 홍익대학교 산업미술대학 겸임교수 / 한양대학교
+  ERICA 겸임교수 / (사)사회혁신가네트워크 이사                                  
+  - 직무: 디자인씽킹 기반 AX(AI Transformation) 컨설턴트, 스타트업 액셀러레이터,
+   교육자                                                                       
+  - 주요 경력: GS SHOP 사내혁신팀 리더(2015-2017), StyleShare 크리에이티브    
+  디렉터(2018-2019), D-camp 액셀러레이터(2014-현재), MYSC                       
+  수석컨설턴트(2012-2013), Mondragon MTA Asia Director(2014-현재)
+  - 학력: 홍익대 미술대학 박사수료(시각디자인), 홍익대 IDAS MA(디자인경영)      
+  - 수상: 제1회 문화예술교육 AI 해커톤 1등(2025), iF Design Award(2011)         
+                                                                                
+  이제 정확한가요? (네, 정확합니다 / 수정 필요: …)                              
+                                                                                
+❯ 네 정확합니다                                                                 
+                                         
+⏺ 확인했습니다.                                                                 
+                                                                              
+  Q3. 몰입도                                                                    
+                                                                              
+  선정 이후 첫 2주~1개월 동안 Learning Path에 주당 몇 시간을 투입할 수 있나요?  
+  업무·개인 일정상 제약이 있다면 함께 알려주세요.                             
+                                                                                
+❯ 현재 화요일 2-5시 3시간 한양대 강의 , 목/금요일 저녁 7-10시 6시간 홍익대강의  
+만 고정된 스케줄이고 나머지는 조율 가능하여 1개월간 주당 40시간이상도 확보      
+가능합니다.                                                                     
+                                                                                
+⏺ 확인했습니다.                                                                 
+                                                                              
+  Q4. Claude Code 사전 지식 수준                                                
+   
+  현재 Claude Code 사용 경험을 아래에서 골라주세요. (부연 1–2줄 환영)           
+                                                                              
+  (a) 오늘 처음 설치했다                                                        
+  (b) 가끔 써봤다 (주 1–2회 미만)                                             
+  (c) 일상적으로 사용 중이다 (주 3회 이상)                                      
+  (d) 팀/조직 차원에서 도입·운영 중이다                                         
+                                                                                
+❯ c                                                                             
+                                                                                
+⏺ 확인했습니다.                                                                 
+                                                                              
+  Q5. Claude Code 프로젝트 경험                                                 
+                                                                              
+  Claude Code 또는 Claude API로 진행한 프로젝트·실험을 1개 이상 간단히          
+  소개해주세요. (없으면 '없음'이라고 써도 됩니다.)                            
+                                                                                
+❯ 현재 안그라픽스 C레벨 대상으로 디자인 업무 및 경영 업무 자동화를 컨설팅 하고  
+있습니다. 또한 개인적으로 PKM과 개인 wiki를 구축하여 Super Human Project를      
+개인적으로 구축해 두고 크리에이터들을 위한 input / OS / output의 증강된         
+솔로프리너 시스템을 디벨롭하고 있습니다. 또한 19년간 운영해온 i spy i를         
+컴패니언 AI 로 실험중에 있으며 대학 비교과 과목 AX 역량 교육을 설계하는         
+프로젝트의 디렉터로 언급되고 있는 중입니다. AIX디자인 강의(I-D9274)에서 vibe    
+coding·MCP·RAG·Agent Experience를 학생 실습 모듈로 직접 설계·운영하고 있고,     
+박사논문 마스터플랜을 Notion MCP + Claude Code 기반으로 운용 중입니다.          
+청도혁신센터 지원을 진행된 사회혁신 해커톤에서는 Claude를 디자인씽킹            
+facilitation 도구로 통합한 파일럿 사례가 있습니다. 이 자산들은 본 인증 학습     
+직후 Squarelight 고객사의 도입 워크숍·디자인 스프린트·재교육 콘텐츠로 즉시 전환 
+ 가능하며, 한양대·홍익대 채널과 사회혁신가·다오랩·액셀러레이터 네트워크는       
+케이스 스터디 확보 및 파트너 에코시스템 확장의 직접 경로가 될 수 있을 것입니다. 
+                                                                             
+⏺ 확인했습니다.   
+                                                                                
+  Q6. 한국 010 휴대전화 번호 인증                                               
+                                         
+  Claude Team Plan Standard Seat의 활성화 자체가 한국 010 휴대전화 번호 인증을  
+  필수 조건으로 합니다. 010 번호가 없으면 계정 프로비저닝 자체가 불가능하여   
+  Learning Path 수강이 막힙니다.                                                
+                                                                              
+  본인 명의의 한국 010 휴대전화 번호를 보유하고 계신가요? (네 / 아니오)         
+    
+❯ 네                                                                            
+                                                                              
+⏺ 확인했습니다. 이제 지원서 파일을 생성하겠습니다.                              
+                                                                              
+⏺ Bash(echo "TS_ISO: $(date -u +"%Y-%m-%dT%H:%M:%SZ")" && echo "TS_FS: $(date -u
+       +"%Y%m%dT%H%M%SZ")")                                                   
+  ⎿  TS_ISO: 2026-04-29T16:28:24Z                                               
+     TS_FS: 20260429T162824Z                                                  
+                                                                                
+  Read 1 file (ctrl+o to expand)                                              
+                                                                                
+⏺ Write(20260429T162824Z-김진원-application.md)                                 
+  ⎿  Wrote 36 lines to 20260429T162824Z-김진원-application.md                   
+      1 # CCA-F Partner Crew Application                                        
+      2                                                                       
+      3 ## 1. Identity & CLI                                                    
+      4 - Applicant name: 김진원                                                
+      5 - Email: kikikeem@gmail.com                                             
+      6 - Claude Code version: 2.1.81 (Claude Code)                             
+      7 - Submitted at (UTC): 2026-04-29T16:28:24Z                              
+      8                                                                         
+      9 ## 2. Applicant Interview                                               
+     … +26 lines (ctrl+o to expand)
+
+⏺ 20260429T162824Z-김진원-application.md 파일이 생성되었습니다.
+  아래 경로를 확인해주세요:                                                   
+  /Users/kiki/20260429T162824Z-김진원-application.md                            
+  
+  이 파일을 지원 Notion Form의 파일 업로드 칸에 그대로 첨부하시면 제출이        
+  완료됩니다. 파일명을 변경하지 말고 원본 그대로 올려주세요.                 
+                                                                                
+  ---                                                                           
+  [참고] CCA-F 응시료 안내 (응답 불필요)                                        
+                                                                                
+  CCA-F 인증 응시료는 Anthropic이 직접 운영·청구하는 공식 비용으로,
+  Squarelight는 응시료를 직접 수령하지 않습니다.                                
+                                                                             
+  - Anthropic 파트너 네트워크 첫 5,000명 안에 드는 경우: 응시료 전액 무료       
+  (Anthropic 정책)                                                           
+  - 5,000명을 초과한 경우: Anthropic 측 응시료 발생. Squarelight는 커뮤니티     
+  지원금으로 응시료의 50%를 지원하며, 나머지 50%는 본인 부담입니다.             
+                                         
+  위 비용은 모두 Anthropic 공식 인증 절차에 해당하며, 자세한 결제·안내는 선발   
+  결과와 함께 별도로 전달됩니다. 본 단계에서는 별도 응답이 필요하지 않습니다.
+                                                                                
+✻ Crunched for 49s                                                           
+                                                                              
+────────────────────────────────────────────────────────────────────────────────
+❯  
+────────────────────────────────────────────────────────────────────────────────
+  [OMC#4.9.0] | 5h:13%(2h40m) wk:10%(1d2h) | session:300m | ctx:4% | 🔧13    
+  ⏵⏵ accept edits on (shift+tab to cycle)                                       
+                                                                                
+                                                                                
+
