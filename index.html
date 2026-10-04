@@ -26,8 +26,8 @@
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
-@page { 
-  size: A4; 
+@page {
+  size: A4;
   margin: 12mm 8mm;
 }
 
@@ -632,27 +632,27 @@ body {
     -webkit-print-color-adjust: exact;
     print-color-adjust: exact;
   }
-  
+
   .control-panel {
     display: none !important;
   }
-  
+
   .cv-container {
     width: 100%;
     margin: 0;
     box-shadow: none;
   }
-  
-  .header, .main-content, .pub-section, .research-section, 
+
+  .header, .main-content, .pub-section, .research-section,
   .community-section, .cv-footer, .current-positions {
     padding-left: 16px;
     padding-right: 16px;
   }
-  
+
   .section {
     page-break-inside: avoid;
   }
-  
+
   .exp-entry, .pub-item, .research-item {
     page-break-inside: avoid;
   }
@@ -663,7 +663,7 @@ body {
     width: 100%;
     margin: 0;
   }
-  
+
   .control-panel {
     position: fixed;
     top: 10px;
@@ -684,7 +684,6 @@ body {
 </div>
 
 <div class="cv-container">
-  
   <!-- HEADER -->
   <header class="header">
     <div class="header-grid">
@@ -708,41 +707,50 @@ body {
       </div>
     </div>
   </header>
-  
+
   <!-- CURRENT POSITIONS - 6개만 -->
   <section class="current-positions">
     <div class="current-grid">
-      <!-- 1. 한양대학교 -->
+      <div class="current-item">
+        <div class="org" data-ko="홍익대학교 산업미술대학원" data-en="Hongik University Graduate School of Industrial Arts">홍익대학교 산업미술대학원</div>
+        <div class="role" data-ko="겸임교수" data-en="Adjunct Professor">겸임교수</div>
+        <div class="period">2026.2 — 2026.6</div>
+      </div>
       <div class="current-item">
         <div class="org" data-ko="한양대학교 ERICA" data-en="Hanyang University ERICA">한양대학교 ERICA</div>
         <div class="role" data-ko="디자인대학 커뮤니케이션디자인학과 겸임교수" data-en="Adjunct Professor, Communication Design">디자인대학 커뮤니케이션디자인학과 겸임교수</div>
         <div class="period">2024 — Present</div>
       </div>
-      <!-- 2. AuroraPlanet -->
+      <div class="current-item">
+        <div class="org" data-ko="연세대학교 AX역량과정" data-en="Yonsei University AX Competency Program">연세대학교 AX역량과정</div>
+        <div class="role" data-ko="총괄 디렉터" data-en="Executive Director">총괄 디렉터</div>
+        <div class="period">2026.6 — 2026.9</div>
+      </div>
+      <div class="current-item">
+        <div class="org" data-ko="사단법인 아침편지문화재단" data-en="Achimpyunji Cultural Foundation">사단법인 아침편지문화재단</div>
+        <div class="role" data-ko="이사" data-en="Board Member">이사</div>
+        <div class="period">2026 — Present</div>
+      </div>
+      <div class="current-item">
+        <div class="org" data-ko="사단법인 사회혁신가네트워크" data-en="Social Innovation Entrepreneurs Network">사단법인 사회혁신가네트워크</div>
+        <div class="role" data-ko="이사" data-en="Board Member">이사</div>
+        <div class="period">2026 — Present</div>
+      </div>
       <div class="current-item">
         <div class="org" data-ko="AuroraPlanet" data-en="AuroraPlanet">AuroraPlanet</div>
         <div class="role" data-ko="대표 / 크리에이티브 디렉터" data-en="CEO / Creative Director">대표 / 크리에이티브 디렉터</div>
         <div class="period">2012 — Present</div>
       </div>
-      <!-- 3. 구글 -->
       <div class="current-item">
-        <div class="org">Google AVPN</div>
-        <div class="role">AI Trainer</div>
+        <div class="org" data-ko="Mondragon MTA Asia" data-en="Mondragon MTA Asia">Mondragon MTA Asia</div>
+        <div class="role" data-ko="Director" data-en="Director">Director</div>
         <div class="period">2024 — Present</div>
       </div>
-      <!-- 4. Mondragon -->
       <div class="current-item">
-        <div class="org">Mondragon MTA Asia</div>
-        <div class="role">Director</div>
-        <div class="period">2024 — Present</div>
-      </div>
-      <!-- 5. 디캠프 -->
-      <div class="current-item">
-        <div class="org">D-camp</div>
+        <div class="org" data-ko="D-camp" data-en="D-camp">D-camp</div>
         <div class="role" data-ko="엑셀러레이터" data-en="Accelerator">엑셀러레이터</div>
         <div class="period">2024 — Present</div>
       </div>
-      <!-- 6. 모두의연구소 -->
       <div class="current-item">
         <div class="org" data-ko="모두의연구소" data-en="Modulabs">모두의연구소</div>
         <div class="role" data-ko="DAO Lab 연구원" data-en="DAO Lab Researcher">DAO Lab 연구원</div>
@@ -750,18 +758,18 @@ body {
       </div>
     </div>
   </section>
-  
+
   <!-- MAIN CONTENT -->
   <main class="main-content">
     <div class="two-column">
-      
+
       <!-- LEFT COLUMN -->
       <aside>
-        
+
         <!-- EDUCATION -->
         <section class="section">
           <h2 class="section-title">Education</h2>
-          
+
           <div class="edu-item">
             <div class="edu-degree" data-ko="박사수료" data-en="Ph.D. Candidate">박사수료</div>
             <div class="edu-school" data-ko="홍익대학교 미술대학" data-en="Hongik University, College of Fine Arts">홍익대학교 미술대학</div>
@@ -770,14 +778,14 @@ body {
           </div>
           
           <div class="edu-item">
-            <div class="edu-degree">MA</div>
+            <div class="edu-degree" data-ko="MA" data-en="MA">MA</div>
             <div class="edu-school" data-ko="홍익대학교 IDAS" data-en="Hongik University IDAS">홍익대학교 IDAS</div>
             <div class="edu-field" data-ko="디자인경영" data-en="Design Management">디자인경영</div>
             <div class="edu-year">2020 — 2022</div>
           </div>
           
           <div class="edu-item">
-            <div class="edu-degree">BA</div>
+            <div class="edu-degree" data-ko="BA" data-en="BA">BA</div>
             <div class="edu-school" data-ko="홍익대학교 미술대학" data-en="Hongik University, College of Fine Arts">홍익대학교 미술대학</div>
             <div class="edu-field" data-ko="시각디자인" data-en="Visual Communication Design">시각디자인</div>
             <div class="edu-year">2000 — 2006</div>
@@ -788,7 +796,7 @@ body {
             <div class="edu-year">1994 — 1999</div>
           </div>
         </section>
-        
+
         <!-- EXPERTISE -->
         <section class="section">
           <h2 class="section-title">Expertise</h2>
@@ -803,23 +811,23 @@ body {
             <span class="expertise-tag" data-ko="캡스톤디자인" data-en="Capstone Design">캡스톤디자인</span>
           </div>
         </section>
-        
+
         <!-- AWARDS -->
         <section class="section">
           <h2 class="section-title">Awards</h2>
-          
+
           <div class="award-item">
-            <div class="award-name" data-ko="문화예술교육 AI 해커톤 1등" data-en="Culture & Arts AI Hackathon 1st Place">문화예술교육 AI 해커톤 1등</div>
+            <div class="award-name" data-ko="문화예술교육 AI 해커톤 1등" data-en="Culture &amp; Arts AI Hackathon 1st Place">문화예술교육 AI 해커톤 1등</div>
             <div class="award-detail" data-ko="문화체육관광부 주최 — 2025" data-en="Ministry of Culture — 2025">문화체육관광부 주최 — 2025</div>
           </div>
           
           <div class="award-item">
-            <div class="award-name">iF Design Award</div>
+            <div class="award-name" data-ko="iF Design Award" data-en="iF Design Award">iF Design Award</div>
             <div class="award-detail" data-ko="하나은행 명동점 / 금융권 최초 — 2011" data-en="Hana Bank Myeongdong / First in Finance — 2011">하나은행 명동점 / 금융권 최초 — 2011</div>
           </div>
           
           <div class="award-item">
-            <div class="award-name">GS SHOP Value No.1</div>
+            <div class="award-name" data-ko="GS SHOP Value No.1" data-en="GS SHOP Value No.1">GS SHOP Value No.1</div>
             <div class="award-detail" data-ko="사내혁신 공모전 대상 — 2015" data-en="Internal Innovation Grand Prize — 2015">사내혁신 공모전 대상 — 2015</div>
           </div>
           
@@ -828,28 +836,33 @@ body {
             <div class="award-detail" data-ko="한경대 3회 연속 — 2022~24" data-en="Hankyong Univ. 3 Consec. — 2022~24">한경대 3회 연속 — 2022~24</div>
           </div>
         </section>
-        
+
         <!-- CERTIFICATIONS -->
         <section class="section">
           <h2 class="section-title">Certifications</h2>
-          <div class="cert-item">AC2 Agile Coach Level 1, 2, 3</div>
+          <div class="cert-item" data-ko="AC2 Agile Coach Level 1, 2, 3" data-en="AC2 Agile Coach Level 1, 2, 3">AC2 Agile Coach Level 1, 2, 3</div>
           <div class="cert-item" data-ko="Management 3.0 수료" data-en="Management 3.0 Certified">Management 3.0 수료</div>
-          <div class="cert-item">Google AVPN AI Trainer</div>
+          <div class="cert-item" data-ko="Google AVPN AI Trainer" data-en="Google AVPN AI Trainer">Google AVPN AI Trainer</div>
           <div class="cert-item" data-ko="KAC 코칭자격증" data-en="KAC Coaching Certificate">KAC 코칭자격증</div>
           <div class="cert-item" data-ko="TAT Arkitektkontor Global Design Program (스웨덴, 2013)" data-en="TAT Arkitektkontor Global Design Program (Sweden, 2013)">TAT Arkitektkontor Global Design Program (스웨덴, 2013)</div>
           <div class="cert-item" data-ko="색채심리상담사 1, 2급" data-en="Color Psychology Counselor Lv.1, 2">색채심리상담사 1, 2급</div>
           <div class="cert-item" data-ko="심리분석상담사 1, 2급" data-en="Psychological Analysis Counselor Lv.1, 2">심리분석상담사 1, 2급</div>
           <div class="cert-item" data-ko="미술심리상담사 1, 2급" data-en="Art Psychology Counselor Lv.1, 2">미술심리상담사 1, 2급</div>
         </section>
-        
+
         <!-- AFFILIATIONS 확장 -->
         <section class="section">
           <div class="affiliations">
             <div class="affiliations-title">Affiliations</div>
+
+            <div class="affil-item">
+              <span data-ko="사단법인 사회혁신가네트워크 이사" data-en="Social Innovation Entrepreneurs Network, Board Member">사단법인 사회혁신가네트워크 이사</span>
+              <a href="https://socialen.org/" target="_blank">socialen.org</a>
+            </div>
             
             <div class="affil-item">
-              <span data-ko="사단법인 사회혁신기업가네트워크 운영위원" data-en="Social Innovation Entrepreneurs Network, Steering Committee">사단법인 사회혁신기업가네트워크 운영위원</span>
-              <a href="https://socialen.org/" target="_blank">socialen.org</a>
+              <span data-ko="사단법인 아침편지문화재단 이사" data-en="Achimpyunji Cultural Foundation, Board Member">사단법인 아침편지문화재단 이사</span>
+              <a href="https://www.godowon.com/" target="_blank">godowon.com</a>
             </div>
             
             <div class="affil-item">
@@ -858,12 +871,12 @@ body {
             </div>
             
             <div class="affil-item">
-              <span>GAP Community — Awaken Korea Member</span>
+              <span data-ko="GAP Community — Awaken Korea Member" data-en="GAP Community — Awaken Korea Member">GAP Community — Awaken Korea Member</span>
               <a href="https://gapcommunity.com/" target="_blank">gapcommunity.com</a>
             </div>
             
             <div class="affil-item">
-              <span>AC2 (Agile Coach) Community</span>
+              <span data-ko="AC2 (Agile Coach) Community" data-en="AC2 (Agile Coach) Community">AC2 (Agile Coach) Community</span>
               <a href="https://www.ac2.kr/" target="_blank">ac2.kr</a>
             </div>
             
@@ -873,20 +886,38 @@ body {
             </div>
             
             <div class="affil-item">
-              <span>Nonce — Basecamp for Future Rebels</span>
+              <span data-ko="Nonce — Basecamp for Future Rebels" data-en="Nonce — Basecamp for Future Rebels">Nonce — Basecamp for Future Rebels</span>
               <a href="https://nonce.community/" target="_blank">nonce.community</a>
             </div>
           </div>
         </section>
-        
+
       </aside>
-      
+
       <!-- RIGHT COLUMN -->
       <div>
-        
+
         <!-- TEACHING EXPERIENCE -->
         <section class="section">
           <h2 class="section-title">Teaching Experience</h2>
+
+          <div class="exp-entry">
+            <div class="exp-header">
+              <span class="exp-org" data-ko="홍익대학교 산업미술대학원" data-en="Hongik University Graduate School of Industrial Arts">홍익대학교 산업미술대학원</span>
+              <span class="exp-period">2026.2 — 2026.6</span>
+            </div>
+            <div class="exp-role" data-ko="겸임교수" data-en="Adjunct Professor">겸임교수</div>
+            <div class="exp-desc" data-ko="대학원: 디자인씽킹, AX 디자인, 공공디자인, AI공진화시대의 웹퍼블리싱, 디자인이론과미학" data-en="Graduate: Design Thinking, AX Design, Public Design, Web Publishing in AI Co-evolution Era, Design Theory &amp; Aesthetics">대학원: 디자인씽킹, AX 디자인, 공공디자인, AI공진화시대의 웹퍼블리싱, 디자인이론과미학</div>
+          </div>
+          
+          <div class="exp-entry">
+            <div class="exp-header">
+              <span class="exp-org" data-ko="연세대학교" data-en="Yonsei University">연세대학교</span>
+              <span class="exp-period">2026.6 — 2026.9</span>
+            </div>
+            <div class="exp-role" data-ko="AX역량과정 총괄 디렉터" data-en="Executive Director, AX Competency Program">AX역량과정 총괄 디렉터</div>
+            <div class="exp-desc" data-ko="AI 전환(AX) 역량 강화 과정 기획 및 총괄 운영" data-en="Planning &amp; Direction of AI Transformation (AX) Competency Program">AI 전환(AX) 역량 강화 과정 기획 및 총괄 운영</div>
+          </div>
           
           <div class="exp-entry">
             <div class="exp-header">
@@ -894,12 +925,12 @@ body {
               <span class="exp-period">2024 — Present</span>
             </div>
             <div class="exp-role" data-ko="디자인대학 커뮤니케이션디자인학과 겸임교수" data-en="Adjunct Professor, Communication Design">디자인대학 커뮤니케이션디자인학과 겸임교수</div>
-            <div class="exp-desc" data-ko="대학원: AI공진화시대의 웹퍼블리싱, 디자인이론과미학 / 학부: 스페큘러티브 디자인" data-en="Graduate: Web Publishing in AI Era, Design Theory & Aesthetics / Undergraduate: Speculative Design">대학원: AI공진화시대의 웹퍼블리싱, 디자인이론과미학 / 학부: 스페큘러티브 디자인</div>
+            <div class="exp-desc" data-ko="학부: 스페큘러티브 디자인" data-en="Undergraduate: Speculative Design">학부: 스페큘러티브 디자인</div>
           </div>
           
           <div class="exp-entry">
             <div class="exp-header">
-              <span class="exp-org">Mondragon MTA Asia</span>
+              <span class="exp-org" data-ko="Mondragon MTA Asia" data-en="Mondragon MTA Asia">Mondragon MTA Asia</span>
               <span class="exp-period">2024 — Present</span>
             </div>
             <div class="exp-role" data-ko="Director / 팀코치 — 연구총괄" data-en="Director / Team Coach — Research Lead">Director / 팀코치 — 연구총괄</div>
@@ -941,11 +972,11 @@ body {
             <div class="exp-desc" data-ko="비전공 취업준비생 IT 스타트업 실무교육" data-en="IT Startup Practical Training for Non-major Job Seekers">비전공 취업준비생 IT 스타트업 실무교육</div>
           </div>
         </section>
-        
+
         <!-- PROFESSIONAL EXPERIENCE -->
         <section class="section">
           <h2 class="section-title">Professional Experience</h2>
-          
+
           <div class="exp-entry">
             <div class="exp-header">
               <span class="exp-org" data-ko="AuroraPlanet" data-en="AuroraPlanet">AuroraPlanet</span>
@@ -959,17 +990,17 @@ body {
           
           <div class="exp-entry">
             <div class="exp-header">
-              <span class="exp-org">D-camp</span>
+              <span class="exp-org" data-ko="D-camp" data-en="D-camp">D-camp</span>
               <span class="exp-period">2024 — Present</span>
             </div>
             <div class="exp-role" data-ko="엑셀러레이터" data-en="Accelerator">엑셀러레이터</div>
-            <span class="exp-desc-line" data-ko="스타트업 BX/UX 디자인 멘토링 및 엑셀러레이팅 (도르코퍼레이션, 코스모스이펙트 등)" data-en="Startup BX/UX Design Mentoring & Accelerating (Dor Corporation, Cosmos Effect, etc.)">스타트업 BX/UX 디자인 멘토링 및 엑셀러레이팅 (도르코퍼레이션, 코스모스이펙트 등)</span>
-            <span class="exp-desc-line" data-ko="디캠프 브랜드 전략 및 디자인 시스템 개발연구, 창업지원센터 선호도 조사 및 브랜드 경쟁력 연구" data-en="D-camp Brand Strategy & Design System Development, Startup Support Center Preference Survey & Brand Competitiveness Research">디캠프 브랜드 전략 및 디자인 시스템 개발연구, 창업지원센터 선호도 조사 및 브랜드 경쟁력 연구</span>
+            <span class="exp-desc-line" data-ko="스타트업 BX/UX 디자인 멘토링 및 엑셀러레이팅 (도르코퍼레이션, 코스모스이펙트 등)" data-en="Startup BX/UX Design Mentoring &amp; Accelerating (Dor Corporation, Cosmos Effect, etc.)">스타트업 BX/UX 디자인 멘토링 및 엑셀러레이팅 (도르코퍼레이션, 코스모스이펙트 등)</span>
+            <span class="exp-desc-line" data-ko="디캠프 브랜드 전략 및 디자인 시스템 개발연구, 창업지원센터 선호도 조사 및 브랜드 경쟁력 연구" data-en="D-camp Brand Strategy &amp; Design System Development, Startup Support Center Preference Survey &amp; Brand Competitiveness Research">디캠프 브랜드 전략 및 디자인 시스템 개발연구, 창업지원센터 선호도 조사 및 브랜드 경쟁력 연구</span>
           </div>
           
           <div class="exp-entry">
             <div class="exp-header">
-              <span class="exp-org">MYSC</span>
+              <span class="exp-org" data-ko="MYSC" data-en="MYSC">MYSC</span>
               <span class="exp-period">2022 — 2023</span>
             </div>
             <div class="exp-role" data-ko="수석 컨설턴트 / 파트너" data-en="Senior Consultant / Partner">수석 컨설턴트 / 파트너</div>
@@ -979,20 +1010,20 @@ body {
           
           <div class="exp-entry">
             <div class="exp-header">
-              <span class="exp-org">StyleShare</span>
+              <span class="exp-org" data-ko="StyleShare" data-en="StyleShare">StyleShare</span>
               <span class="exp-period">2018 — 2019</span>
             </div>
             <div class="exp-role" data-ko="크리에이티브 디렉터 / 디자인팀 총괄" data-en="Creative Director / Design Team Lead">크리에이티브 디렉터 / 디자인팀 총괄</div>
-            <div class="exp-desc" data-ko="Holistic Brand 전략 구축, 디자인시스템 개발" data-en="Holistic Brand Strategy, Design System Development">Holistic Brand 전략 구축, 디자인시스템 개발</div>
+            <span class="exp-desc-line" data-ko="Holistic Brand 전략 구축, 디자인시스템 개발" data-en="Holistic Brand Strategy, Design System Development">Holistic Brand 전략 구축, 디자인시스템 개발</span>
           </div>
           
           <div class="exp-entry">
             <div class="exp-header">
-              <span class="exp-org">GS SHOP</span>
+              <span class="exp-org" data-ko="GS SHOP" data-en="GS SHOP">GS SHOP</span>
               <span class="exp-period">2015 — 2017</span>
             </div>
             <div class="exp-role" data-ko="Open Lab (오픈이노베이션 사내혁신팀) 팀리더" data-en="Open Lab (Open Innovation Team) Leader">Open Lab (오픈이노베이션 사내혁신팀) 팀리더</div>
-            <div class="exp-desc" data-ko="디지털 트랜스포메이션, 제1회 해커톤 기획, 사내 혁신 HRD, GS SHOP Value No.1 (대상 수상), San Francisco 지사 발령(IDEO DX워크샵 기획진행, 테크기업 HR 트렌드 연구, 피투자사 발굴)" data-en="Digital Transformation, 1st Hackathon Planning, Innovation HRD, GS SHOP Value No.1 Award, San Francisco Office (IDEO DX Workshop, Tech HR Trend Research, Investment Discovery)">디지털 트랜스포메이션, 제1회 해커톤 기획, 사내 혁신 HRD, GS SHOP Value No.1 (대상 수상), San Francisco 지사 발령(IDEO DX워크샵 기획진행, 테크기업 HR 트렌드 연구, 피투자사 발굴)</div>
+            <span class="exp-desc-line" data-ko="디지털 트랜스포메이션, 제1회 해커톤 기획, 사내 혁신 HRD, GS SHOP Value No.1 (대상 수상), San Francisco 지사 발령(IDEO DX워크샵 기획진행, 테크기업 HR 트렌드 연구, 피투자사 발굴)" data-en="Digital Transformation, 1st Hackathon Planning, Innovation HRD, GS SHOP Value No.1 Award, San Francisco Office (IDEO DX Workshop, Tech HR Trend Research, Investment Discovery)">디지털 트랜스포메이션, 제1회 해커톤 기획, 사내 혁신 HRD, GS SHOP Value No.1 (대상 수상), San Francisco 지사 발령(IDEO DX워크샵 기획진행, 테크기업 HR 트렌드 연구, 피투자사 발굴)</span>
           </div>
           
           <div class="exp-entry">
@@ -1001,7 +1032,7 @@ body {
               <span class="exp-period">2011 — 2012</span>
             </div>
             <div class="exp-role" data-ko="브랜드 디자이너 (손혜원 브랜드 디자인 스튜디오)" data-en="Brand Designer (Son Hyewon Studio)">브랜드 디자이너 (손혜원 브랜드 디자인 스튜디오)</div>
-            <div class="exp-desc" data-ko="제주 프리미엄 삼다수, 잘풀리는집, 삼성 델라코트 등" data-en="Jeju Premium Samdasoo, Jalpullineunjip, Samsung Dellacourt, etc.">제주 프리미엄 삼다수, 잘풀리는집, 삼성 델라코트 등</div>
+            <span class="exp-desc-line" data-ko="제주 프리미엄 삼다수, 잘풀리는집, 삼성 델라코트 등" data-en="Jeju Premium Samdasoo, Jalpullineunjip, Samsung Dellacourt, etc.">제주 프리미엄 삼다수, 잘풀리는집, 삼성 델라코트 등</span>
           </div>
           
           <div class="exp-entry">
@@ -1010,7 +1041,7 @@ body {
               <span class="exp-period">2009 — 2010</span>
             </div>
             <div class="exp-role" data-ko="아트디렉터 / 기획2팀 판돌(대안학교 교사)" data-en="Art Director / Alternative School Teacher">아트디렉터 / 기획2팀 판돌(대안학교 교사)</div>
-            <div class="exp-desc" data-ko="하자센터 공간/BX 서비스디자인, 2010 지속가능한 창의서밋 이벤트 아트디렉팅, 사회적기업 인증 BX 컨설팅, I spy I 자기발견 메타인지 교육프로그램 기획 및 운영, IT 창의예술프로그램 기획 및 운영 등" data-en="Haja Center Space/BX Service Design, 2010 Sustainable Creative Summit Art Direction, Social Enterprise BX Consulting, I spy I Meta-cognition Education Program, IT Creative Arts Program, etc.">하자센터 공간/BX 서비스디자인, 2010 지속가능한 창의서밋 이벤트 아트디렉팅, 사회적기업 인증 BX 컨설팅, I spy I 자기발견 메타인지 교육프로그램 기획 및 운영, IT 창의예술프로그램 기획 및 운영 등</div>
+            <span class="exp-desc-line" data-ko="하자센터 공간/BX 서비스디자인, 2010 지속가능한 창의서밋 이벤트 아트디렉팅, 사회적기업 인증 BX 컨설팅, I spy I 자기발견 메타인지 교육프로그램 기획 및 운영, IT 창의예술프로그램 기획 및 운영 등" data-en="Haja Center Space/BX Service Design, 2010 Sustainable Creative Summit Art Direction, Social Enterprise BX Consulting, I spy I Meta-cognition Education Program, IT Creative Arts Program, etc.">하자센터 공간/BX 서비스디자인, 2010 지속가능한 창의서밋 이벤트 아트디렉팅, 사회적기업 인증 BX 컨설팅, I spy I 자기발견 메타인지 교육프로그램 기획 및 운영, IT 창의예술프로그램 기획 및 운영 등</span>
           </div>
           
           <div class="exp-entry">
@@ -1019,7 +1050,7 @@ body {
               <span class="exp-period">2006 — 2009</span>
             </div>
             <div class="exp-role" data-ko="북디자이너" data-en="Book Designer">북디자이너</div>
-            <div class="exp-desc" data-ko="30주년 세계문학전집 특별판 총감독, 김수영 육필시고전집, 파블로 네루다 자서전, 오르한 파묵 검은책(2008년 올해의 북디자인 수상)" data-en="30th Anniversary World Literature Special Edition Director, Kim Soo-young Handwritten Poetry, Pablo Neruda Autobiography, Orhan Pamuk Black Book (2008 Book Design of the Year)">30주년 세계문학전집 특별판 총감독, 김수영 육필시고전집, 파블로 네루다 자서전, 오르한 파묵 검은책(2008년 올해의 북디자인 수상)</div>
+            <span class="exp-desc-line" data-ko="30주년 세계문학전집 특별판 총감독, 김수영 육필시고전집, 파블로 네루다 자서전, 오르한 파묵 검은책(2008년 올해의 북디자인 수상)" data-en="30th Anniversary World Literature Special Edition Director, Kim Soo-young Handwritten Poetry, Pablo Neruda Autobiography, Orhan Pamuk Black Book (2008 Book Design of the Year)">30주년 세계문학전집 특별판 총감독, 김수영 육필시고전집, 파블로 네루다 자서전, 오르한 파묵 검은책(2008년 올해의 북디자인 수상)</span>
           </div>
           
           <div class="exp-entry">
@@ -1028,20 +1059,20 @@ body {
               <span class="exp-period">2003 — 2004</span>
             </div>
             <div class="exp-role" data-ko="연구원" data-en="Researcher">연구원</div>
-            <div class="exp-desc" data-ko="557돐 한글날 포스터/배너 디자인, 김지하 전집, 마노체·미르체 패밀리 서체 개발" data-en="557th Hangeul Day Poster/Banner Design, Kim Ji-ha Collection, Mano/Mir Typeface Family Development">557돐 한글날 포스터/배너 디자인, 김지하 전집, 마노체·미르체 패밀리 서체 개발</div>
+            <span class="exp-desc-line" data-ko="557돐 한글날 포스터/배너 디자인, 김지하 전집, 마노체·미르체 패밀리 서체 개발" data-en="557th Hangeul Day Poster/Banner Design, Kim Ji-ha Collection, Mano/Mir Typeface Family Development">557돐 한글날 포스터/배너 디자인, 김지하 전집, 마노체·미르체 패밀리 서체 개발</span>
           </div>
         </section>
-        
+
       </div>
     </div>
   </main>
-  
+
   <!-- COMMUNITY & SIGNATURE PROJECTS -->
   <section class="community-section">
-    <h2 class="section-title" data-ko="Community & Signature Projects" data-en="Community & Signature Projects">Community & Signature Projects</h2>
-    
+    <h2 class="section-title" data-ko="Community &amp; Signature Projects" data-en="Community &amp; Signature Projects">Community &amp; Signature Projects</h2>
+
     <div class="community-grid">
-      
+
       <div class="community-item">
         <div class="community-title" data-ko="i spy i — Super Me Project" data-en="i spy i — Super Me Project">i spy i — Super Me Project</div>
         <div class="community-desc" data-ko="AI 공진화 시대의 나다운 미션기반 Super Me 프로젝트. 하자센터 중고등학생 대상 인생미션찾기 프로젝트에서 시작. 2008년이후 17년간 현재 16기까지 운영, 현재 컴패니언 AI coach로 증강" data-en="Mission-based Super Me Project for AI Co-evolution Era. Started as Life Mission Discovery Project for Haja Center Students. 17 years, 16 cohorts since 2008, now augmented with Companion AI Coach">AI 공진화 시대의 나다운 미션기반 Super Me 프로젝트. 하자센터 중고등학생 대상 인생미션찾기 프로젝트에서 시작. 2008년이후 17년간 현재 16기까지 운영, 현재 컴패니언 AI coach로 증강</div>
@@ -1056,25 +1087,25 @@ body {
       
       <div class="community-item">
         <div class="community-title" data-ko="모두의연구소 DAO Lab : 미래조직 연구" data-en="Modulabs DAO Lab: Future Organization Research">모두의연구소 DAO Lab : 미래조직 연구</div>
-        <div class="community-desc" data-ko="1. 미래의 일과 조직, 커뮤니티 리더쉽연구 'Marketfit Lab 길드형 커뮤니티를 중심으로' / 2. Human in the loop Agent 설계연구 / 3. 슈퍼휴먼과 미래 커뮤니티 역할 연구" data-en="1. Future Work & Organization, Community Leadership 'Guild-type Community at Marketfit Lab' / 2. Human in the Loop Agent Design Research / 3. Superhuman and Future Community Role Research">1. 미래의 일과 조직, 커뮤니티 리더쉽연구 'Marketfit Lab 길드형 커뮤니티를 중심으로' / 2. Human in the loop Agent 설계연구 / 3. 슈퍼휴먼과 미래 커뮤니티 역할 연구</div>
+        <div class="community-desc" data-ko="1. 미래의 일과 조직, 커뮤니티 리더쉽연구 'Marketfit Lab 길드형 커뮤니티를 중심으로' / 2. Human in the loop Agent 설계연구 / 3. 슈퍼휴먼과 미래 커뮤니티 역할 연구" data-en="1. Future Work &amp; Organization, Community Leadership 'Guild-type Community at Marketfit Lab' / 2. Human in the Loop Agent Design Research / 3. Superhuman and Future Community Role Research">1. 미래의 일과 조직, 커뮤니티 리더쉽연구 'Marketfit Lab 길드형 커뮤니티를 중심으로' / 2. Human in the loop Agent 설계연구 / 3. 슈퍼휴먼과 미래 커뮤니티 역할 연구</div>
         <div class="community-period">Present</div>
       </div>
       
       <div class="community-item">
-        <div class="community-title">META Personal Super Intelligence</div>
-        <div class="community-desc" data-ko="스마트 글래스 메타 퍼스널 수퍼인텔리전스 디자인 연구 참여. 생성형 AI 시대 '투명성 및 이용자 제어 설계' 연구, 음성·대화형 UX 기반 사용자 중심 설계" data-en="Meta Smart Glasses Personal Super Intelligence Design Research. Transparency & User Control Design, Voice/Conversational UX">스마트 글래스 메타 퍼스널 수퍼인텔리전스 디자인 연구 참여. 생성형 AI 시대 '투명성 및 이용자 제어 설계' 연구, 음성·대화형 UX 기반 사용자 중심 설계</div>
+        <div class="community-title" data-ko="META Personal Super Intelligence" data-en="META Personal Super Intelligence">META Personal Super Intelligence</div>
+        <div class="community-desc" data-ko="스마트 글래스 메타 퍼스널 수퍼인텔리전스 디자인 연구 참여. 생성형 AI 시대 '투명성 및 이용자 제어 설계' 연구, 음성·대화형 UX 기반 사용자 중심 설계" data-en="Meta Smart Glasses Personal Super Intelligence Design Research. Transparency &amp; User Control Design, Voice/Conversational UX">스마트 글래스 메타 퍼스널 수퍼인텔리전스 디자인 연구 참여. 생성형 AI 시대 '투명성 및 이용자 제어 설계' 연구, 음성·대화형 UX 기반 사용자 중심 설계</div>
         <div class="community-period">2025</div>
       </div>
-      
+
     </div>
   </section>
-  
+
   <!-- PUBLICATIONS & RESEARCH -->
   <section class="pub-section">
-    <h2 class="section-title">Publications & Research</h2>
-    
+    <h2 class="section-title">Publications &amp; Research</h2>
+
     <div class="pub-grid">
-      
+
       <div class="pub-item">
         <span class="pub-year">24</span>
         <div class="pub-title" data-ko="돌봄로봇과 돌봄공간에 대한 분야별 미래 비전 서비스 시나리오 도출" data-en="Future Vision Service Scenarios for Care Robots and Care Spaces">돌봄로봇과 돌봄공간에 대한 분야별 미래 비전 서비스 시나리오 도출</div>
@@ -1088,7 +1119,7 @@ body {
         <div class="pub-venue" data-ko="17th International Conference on NDM (뉴질랜드)" data-en="17th International Conference on NDM (New Zealand)">17th International Conference on NDM (뉴질랜드)</div>
         <span class="pub-type">Conference</span>
       </div>
-
+      
       <div class="pub-item">
         <span class="pub-year">23</span>
         <div class="pub-title" data-ko="공공 이노베이션 임팩트 (신한금융, 카카오임팩트챌린지, JDC 리빙랩)" data-en="Public Innovation Impact (Shinhan, Kakao Impact Challenge, JDC Living Lab)">공공 이노베이션 임팩트 (신한금융, 카카오임팩트챌린지, JDC 리빙랩)</div>
@@ -1130,14 +1161,14 @@ body {
         <div class="pub-venue" data-ko="홍익대학교 IDAS — 교원 홈뷰티 디바이스" data-en="Hongik Univ. IDAS — Kyowon Home Beauty Device">홍익대학교 IDAS — 교원 홈뷰티 디바이스</div>
         <span class="pub-type">Research</span>
       </div>
-
+      
       <div class="pub-item">
         <span class="pub-year">23</span>
         <div class="pub-title" data-ko="잘파세대를 위한 앱테크 UX/BX 디자인 연구" data-en="AppTech UX/BX Design Research for Gen Z-Alpha">잘파세대를 위한 앱테크 UX/BX 디자인 연구</div>
-        <div class="pub-venue" data-ko="네이앤컴퍼니 — 네이버스 리뉴얼 프로젝트" data-en="Nay&Company — Navers Renewal Project">네이앤컴퍼니 — 네이버스 리뉴얼 프로젝트</div>
+        <div class="pub-venue" data-ko="네이앤컴퍼니 — 네이버스 리뉴얼 프로젝트" data-en="Nay&amp;Company — Navers Renewal Project">네이앤컴퍼니 — 네이버스 리뉴얼 프로젝트</div>
         <span class="pub-type">Research</span>
       </div>
-
+      
       <div class="pub-item">
         <span class="pub-year">20</span>
         <div class="pub-title" data-ko="헬스테크 그로스 디자인 연구 — 인스타그램을 중심으로" data-en="HealthTech Growth Design Research — Focused on Instagram">헬스테크 그로스 디자인 연구 — 인스타그램을 중심으로</div>
@@ -1165,16 +1196,16 @@ body {
         <div class="pub-venue" data-ko="디자인진흥원" data-en="Korea Institute of Design Promotion">디자인진흥원</div>
         <span class="pub-type">Research / Book</span>
       </div>
-      
+
     </div>
   </section>
-  
+
   <!-- SELECTED RESEARCH PROJECTS -->
   <section class="research-section">
     <h2 class="section-title">Selected Research Projects</h2>
-    
+
     <div class="research-timeline">
-      
+
       <div class="research-item">
         <div class="research-year">2024—</div>
         <div>
@@ -1187,7 +1218,7 @@ body {
         <div class="research-year">2025</div>
         <div>
           <div class="research-title" data-ko="META 스마트 글래스 퍼스널 수퍼인텔리전스 디자인 연구" data-en="META Smart Glasses Personal Super Intelligence Design">META 스마트 글래스 퍼스널 수퍼인텔리전스 디자인 연구</div>
-          <div class="research-client" data-ko="META — 음성·대화형 UX, 투명성 및 이용자 제어 설계" data-en="META — Voice/Conversational UX, Transparency & User Control">META — 음성·대화형 UX, 투명성 및 이용자 제어 설계</div>
+          <div class="research-client" data-ko="META — 음성·대화형 UX, 투명성 및 이용자 제어 설계" data-en="META — Voice/Conversational UX, Transparency &amp; User Control">META — 음성·대화형 UX, 투명성 및 이용자 제어 설계</div>
         </div>
       </div>
       
@@ -1222,15 +1253,15 @@ body {
           <div class="research-client" data-ko="JDC 제주특별자치도개발공사" data-en="JDC (Jeju Development Center)">JDC 제주특별자치도개발공사</div>
         </div>
       </div>
-
+      
       <div class="research-item">
         <div class="research-year">2021</div>
         <div>
           <div class="research-title" data-ko="초소형전기차 모빌리티 서비스 디자인" data-en="Micro EV Mobility Service Design">초소형전기차 모빌리티 서비스 디자인</div>
-          <div class="research-client">SOCAR</div>
+          <div class="research-client" data-ko="SOCAR" data-en="SOCAR">SOCAR</div>
         </div>
       </div>
-
+      
       <div class="research-item">
         <div class="research-year">2020</div>
         <div>
@@ -1238,7 +1269,7 @@ body {
           <div class="research-client" data-ko="LG전자 디자인경영센터" data-en="LG Electronics Design Management Center">LG전자 디자인경영센터</div>
         </div>
       </div>
-
+      
       <div class="research-item">
         <div class="research-year">2020</div>
         <div>
@@ -1246,7 +1277,7 @@ body {
           <div class="research-client" data-ko="홍익대학교 BK21사업단" data-en="Hongik University BK21 Project">홍익대학교 BK21사업단</div>
         </div>
       </div>
-
+      
       <div class="research-item">
         <div class="research-year">2017</div>
         <div>
@@ -1262,18 +1293,17 @@ body {
           <div class="research-client" data-ko="한국디자인진흥원" data-en="KIDP">한국디자인진흥원</div>
         </div>
       </div>
-      
+
     </div>
   </section>
-  
+
   <!-- FOOTER -->
   <footer class="cv-footer">
     <div class="footer-name">KIKI / Jinwon Kim</div>
-    <div class="footer-update" data-ko="최종 업데이트: 2026년 1월" data-en="Last Updated: January 2026">최종 업데이트: 2026년 1월</div>
+    <div class="footer-update" data-ko="최종 업데이트: 2026년 10월" data-en="Last Updated: October 2026">최종 업데이트: 2026년 10월</div>
   </footer>
-  
-</div>
 
+</div>
 <!-- 언어 전환 스크립트 -->
 <script>
 function switchLang(lang) {
